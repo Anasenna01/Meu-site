@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-    <link rel="stylesheet" href="/Portfolio/css/style.css" />
-    <link rel="stylesheet" href="/Portfolio/css/home.css">
-    <link rel="stylesheet" href="/Portfolio/css/sobre.css">
-    <link rel="stylesheet" href="/Portfolio/css/projetos.css">
-    <link rel="stylesheet" href="/Portfolio/css/contato.css">
+    <link rel="stylesheet" href="/Meu-site/css/style.css" />
+    <link rel="stylesheet" href="/Meu-site/css/home.css">
+    <link rel="stylesheet" href="/Meu-site/css/sobre.css">
+    <link rel="stylesheet" href="/Meu-site/css/projetos.css">
+    <link rel="stylesheet" href="/Meu-site/css/contato.css">
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,17 +21,17 @@
 <header>
   <nav class="nav-bar">
       <div class="logo">
-          <img src="/Portfolio/img/logo.png" alt="" width="130px">
+          <img src="/Meu-site/img/logo.png" alt="" width="130px">
       </div>
       <div class="nav-list">
           <ul>
-              <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
-              <li class="nav-item"><a href="#" class="nav-link"> PROJETOS</a></li>
+              <li class="nav-item"><a href="#home" class="nav-link">HOME  <img src="/Meu-site/img/Arrow2.png" alt="" height="15px"></a></li>
+              <li class="nav-item"><a href="#sobre" class="nav-link">SOBRE  <img src="/Meu-site/img/Arrow2.png" alt="" height="15px"></a></li>
+              <li class="nav-item"><a href="#projetos" class="nav-link"> PROJETOS  <img src="/Meu-site/img/Arrow2.png" alt="" height="15px"></a></li>
           </ul>
       </div>
       <div class="login-button">
-          <button><a href="#">LET´S TALK</a></button>
+          <button><a href="#contato">LET´S TALK</a></button>
       </div>
 
       <!--MOBILE MENU-->
@@ -53,12 +53,12 @@
 </header>
 
   <!--APRESENTAÇÃO-->
-    <div id="saudacao">
-      <h1 class="titulo">I create <strong class="lindo">beautiful</strong><br>experiences</h1>
-      <p class="texto">Layouts personalizados para aprimorar a usabilidade e acessibilidade <br>com criatividade e dedicação para o sucesso de projetos digitais.</p>
-    
+    <div id="home">
+      <h1>I create <strong>beautiful </strong>experiences</h1>
+      <p>No universo do design e da tecnologia, cada pixel é uma nova oportunidade para criar o futuro com elegância e inovação.</p>
+      
       <div>
-          <img src="/Portfolio/img/Vector.png" width="600px" height="350px">
+          <img src="/Meu-site/img/Vector.png" height="315px" width="555px">
       </div>
     </div>
 
@@ -67,17 +67,19 @@
     <div class="dev">
       <h2>Desenvolvimento</h2>
       <p>Desenvolvimento de sites com designs responsivos. Meu compromisso é proporcionar não apenas funcionalidade, mas também uma experiência fluida, impulsionando significativo tráfego digital. </p>
+      <button>SEE THE PROJECTS</button>
     </div>
 
     <div class="design">
       <h2>Design</h2>
-      <p>Transformo ideias em experiências digitais envolventes, meu compromisso é proporcionar não apenas funcionalidade, mas também uma experiência fluida.  Acredito que a atenção aos detalhes e uma visão clara são fundamentais para criar designs verdadeiramente memoráveis.</p>
+      <p>Layouts personalizados para aprimorar a usabilidade e acessibilidade com criatividade, dedicação e atenção aos detalhes com uma visão clara para o sucesso para projetos digitais.</p>
+      <button>SEE THE PROJECTS</button>
     </div>
   </div>
 
   <!--PROJETOS-->
 
-  <div id="case1">
+  <div id="projetos">
     <div class="case-study-1">
       <span>CASE STUDY</span>
       <h2>React com Typescript e API do GitHub</h2>
@@ -91,24 +93,28 @@
 
   <div id="case2">
     <div class="case-study-2">
-      <span class="case-s2">CASE STUDY</span>
-      <h2 class="case-title2">Formulário com conexão
-        ao BD</h2>
-      <p class="case-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      <span>CASE STUDY</span>
+      <h2>Formulário com conexão ao BD</h2>
+      <p>Uma calculadora desenvolvida em HTML, CSS e JavaScript com boas práticas de codificação. Este projeto incorpora técnicas com Flexbox e Grid para um layout responsivo e esteticamente  agradável. Além disso, a implementação de Programação Orientada a Objetos (POO) eleva a estrutura do código de organização e eficiência. Surpreenda-se com a interatividade proporcionada pelo uso do DOM para capturar eventos HTML no JavaScript.</p>
       <button>SEE CASE STUDY</button>
     </div>
   </div>
 
   <div id="others">
-    <div class="links">
+    <div class="others-title">
       <h2>Others</h2>
+    </div>
 
+    <div id="links">
+      <li><a>2023 | Quiz com React <img src="/Meu-site/img/arrow.png" alt="seta" height="18px"></a></li>
+      <li><a>2023 | Gerador de Senha <img src="/Meu-site/img/arrow.png" alt="seta" height="18px"></a></li>
+      <li><a>2023 | App de Clima <img src="/Meu-site/img/arrow.png" alt="seta" height="18px"></a></li>
+      <li><a>2023 | Calculadora <img src="/Meu-site/img/arrow.png" alt="seta" height="18px"></a></li>
     </div>
   </div>
 
   <!--CONTATO-->
-  <div id="contact">
+  <div id="contato">
     <div class="frase">
       <h1>The adventure of design with <strong class="criatividade">creativity!</strong></h1>
       <h2>Interested in working together?</h2>
@@ -118,6 +124,6 @@
     </div>
   </div>
 
-  <script src="/Portfolio/js/script.js"></script>
+  <script src="/Meu-site/js/script.js"></script>
 </body>
 </html>
