@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="/Portfolio/css/style.css" />
+    <link rel="stylesheet" href="/Portfolio/css/home.css">
+    <link rel="stylesheet" href="/Portfolio/css/sobre.css">
+    <link rel="stylesheet" href="/Portfolio/css/projetos.css">
+    <link rel="stylesheet" href="/Portfolio/css/contato.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Ana Senna</title>
+</head>
+<body>
+<!--MENU-->
+<header>
+  <nav class="nav-bar">
+      <div class="logo">
+          <img src="/Portfolio/img/logo.png" alt="" width="130px">
+      </div>
+      <div class="nav-list">
+          <ul>
+              <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+              <li class="nav-item"><a href="#" class="nav-link"> PROJETOS</a></li>
+          </ul>
+      </div>
+      <div class="login-button">
+          <button><a href="#">LET´S TALK</a></button>
+      </div>
+
+      <!--MOBILE MENU-->
+      <div class="mobile-menu-icon">
+          <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+      </div>
+  </nav>
+  <div class="mobile-menu">
+      <ul>
+          <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">PROJETOS</a></li>
+      </ul>
+
+      <div class="login-button">
+          <button><a href="#">LET´S TALK</a></button>
+      </div>
+  </div>
+</header>
+
+  <!--APRESENTAÇÃO-->
+    <div id="saudacao">
+      <h1 class="titulo">I create <strong class="lindo">beautiful</strong><br>experiences</h1>
+      <p class="texto">Layouts personalizados para aprimorar a usabilidade e acessibilidade <br>com criatividade e dedicação para o sucesso de projetos digitais.</p>
+    
+      <div>
+          <img src="/Portfolio/img/Vector.png" width="600px" height="350px">
+      </div>
+    </div>
+
+  <!--SOBRE-->
+  <div id="sobre">
+    <div class="dev">
+      <h2>Desenvolvimento</h2>
+      <p>Desenvolvimento de sites com designs responsivos. Meu compromisso é proporcionar não apenas funcionalidade, mas também uma experiência fluida, impulsionando significativo tráfego digital. </p>
+    </div>
+
+    <div class="design">
+      <h2>Design</h2>
+      <p>Transformo ideias em experiências digitais envolventes, meu compromisso é proporcionar não apenas funcionalidade, mas também uma experiência fluida.  Acredito que a atenção aos detalhes e uma visão clara são fundamentais para criar designs verdadeiramente memoráveis.</p>
+    </div>
+  </div>
+
+  <!--PROJETOS-->
+
+  <div id="case1">
+    <div class="case-study-1">
+      <span>CASE STUDY</span>
+      <h2>React com Typescript e API do GitHub</h2>
+      <p>Uma calculadora desenvolvida em HTML, CSS e JavaScript com boas práticas de codificação. Este projeto incorpora técnicas com Flexbox e Grid para um layout responsivo e esteticamente  agradável. Além disso, a implementação de Programação Orientada a Objetos (POO) eleva a estrutura do código de organização e eficiência. Surpreenda-se com a interatividade proporcionada pelo uso do DOM para capturar eventos HTML no JavaScript.</p>
+      <button>SEE CASE STUDY</button>
+    </div>
+    <!--<div>
+      <img src="/Portfolio/img/API.png" alt="Vetor API" height="400px" width="400px">-->
+    </div>
+  </div>
+
+  <div id="case2">
+    <div class="case-study-2">
+      <span class="case-s2">CASE STUDY</span>
+      <h2 class="case-title2">Formulário com conexão
+        ao BD</h2>
+      <p class="case-p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+      <button>SEE CASE STUDY</button>
+    </div>
+  </div>
+
+  <div id="others">
+    <div class="links">
+      <h2>Others</h2>
+
+    </div>
+  </div>
+
+  <!--CONTATO-->
+  <div id="contact">
+    <div class="frase">
+      <h1>The adventure of design with <strong class="criatividade">creativity!</strong></h1>
+      <h2>Interested in working together?</h2>
+      <button class="email">Send me an e-mail!</button>
+      <button class="curriculo">Download my curriculum!</button><br>
+      <span>© Created by <strong>Ana Senna</strong> | All Reserved!</span>
+    </div>
+  </div>
+
+  <script src="/Portfolio/js/script.js"></script>
+</body>
+</html>
