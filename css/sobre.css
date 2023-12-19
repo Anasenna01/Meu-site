@@ -1,0 +1,29 @@
+/*SOBRE*/
+#sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 15px;
+  }
+
+  .dev, .design{
+    background: linear-gradient(98deg, #8338EC 5.53%, #9C2EF5 100%);
+    border-radius: 20px;
+    width: 705px;
+    height: 345px;
+  }
+
+  h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px;
+  }
+
+  .dev, .design p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+  }
