@@ -31,7 +31,7 @@ body {
     letter-spacing: -5px;
   }
 
-  strong {
+  #home strong {
     background: linear-gradient(93deg, #8338EC 49.3%, #B923FF 87.76%);
 
     -webkit-background-clip: text;
