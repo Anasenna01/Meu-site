@@ -1,0 +1,49 @@
+/*HOME*/
+body {
+    background-color: #0B001A;
+    padding: 20px;
+  }
+
+  #saudacao {
+    background-color: #1E0044;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 0px 0px 20px 20px;
+    padding: 30px 100px 30px 100px;
+  }
+
+  #saudacao img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 190px;
+  }
+
+  .titulo, .texto{
+    font-family: 'Montserrat';
+    color: #E9DEFF;
+  }
+
+  .titulo{
+    font-size: 100px;
+    font-weight: 550;
+  }
+
+  .lindo {
+    background: -webkit-linear-gradient(93deg, #8338EC 49.3%, #B923FF 87.76%);
+    background: linear-gradient(93deg, #8338EC 49.3%, #B923FF 87.76%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Cormorant';
+    font-size: 130px;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .texto{
+    font-size: 21px;
+    font-weight: 400;
+  }
