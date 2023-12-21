@@ -19,39 +19,27 @@
 </head>
 <body>
 <!--MENU-->
-<header>
-  <nav class="nav-bar">
-      <div class="logo">
-          <img src="/Meu-site/img/logo.png" alt="" width="130px">
-      </div>
-      <div class="nav-list">
+  <header id="header">
+    <div class="container">
+      <div class="flex">
+
+        <a href="#home"><img src="/Meu-site/img/logo.png" alt="" width="130px"></a>
+
+        <nav>
           <ul>
-              <li class="nav-item"><a href="#home" class="nav-link">HOME  <img src="/Meu-site/icons/Arrow2.png" alt="" height="15px"></a></li>
-              <li class="nav-item"><a href="#sobre" class="nav-link">SOBRE  <img src="/Meu-site/icons/Arrow2.png" alt="" height="15px"></a></li>
-              <li class="nav-item"><a href="#projetos" class="nav-link"> PROJETOS  <img src="/Meu-site/icons/Arrow2.png" alt="" height="15px"></a></li>
+            <li><a href="#home">HOME <img src="/Meu-site/icons/Arrow2.png" alt="Seta" height="12px"></a></li>
+            <li><a href="#sobre">SOBRE <img src="/Meu-site/icons/Arrow2.png" alt="Seta" height="12px"></a></li>
+            <li><a href="#projetos">PROJETOS <img src="/Meu-site/icons/Arrow2.png" alt="Seta" height="12px"></a></li>
           </ul>
-      </div>
-      <div class="login-button">
-          <button><a href="#contato">LET´S TALK</a></button>
-      </div>
+        </nav>
 
-      <!--MOBILE MENU-->
-      <div class="mobile-menu-icon">
-          <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
-      </div>
-  </nav>
-  <div class="mobile-menu">
-      <ul>
-          <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">SOBRE</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">PROJETOS</a></li>
-      </ul>
+        <div class="btn-contato">
+          <a href="#contato"><button>LET´S TALK</button></a>
+        </div>
 
-      <div class="login-button">
-          <button><a href="#">LET´S TALK</a></button>
       </div>
-  </div>
-</header>
+    </div>
+  </header>
 
   <!--APRESENTAÇÃO-->
     <div id="home">
