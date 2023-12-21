@@ -138,6 +138,7 @@
 
   #links li {
     padding: 25px;
+    list-style-type: none;
   }
 
   #links li a {
