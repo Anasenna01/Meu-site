@@ -4,18 +4,14 @@
     background-color: #1E0044;
     border-radius: 20px;
     margin-top: 15px;
-    padding: 30px 100px 30px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 30px 120px 30px 120px;
   }
 
   .frase h1{
     color: #E9DEFF;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 90px;
-    font-style: normal;
+    font-size: 100px;
     font-weight: 500;
   }
 
@@ -39,21 +35,18 @@
     font-family: 'Montserrat';
     font-size: 35px;
     font-weight: 300;
-    letter-spacing: 5.25px;
+    letter-spacing: 5px;
     text-align: center;
   }
 
   .email, .curriculo {
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 25px 10px 25px;
+    margin: 10px 90px 100px 0px ;
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px 30px;
   }
 
   .email {
