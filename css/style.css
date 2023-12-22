@@ -15,11 +15,11 @@
     margin: auto;
 }
 
-/*.flex {
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}*/
+}
 
 header {
     background-color: #1E0044;
